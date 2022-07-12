@@ -3,33 +3,79 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport"
-				content="width=device-width, initial-scale=1.0">
-	<meta name="description"
-				content="Gulp pack for easy html/php markup development">
-	<meta name="keywords"
-				content="">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.svg"
-				type="image/svg+xml">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.webp"
-				type="image/webp">
-	<link rel="shortcut icon"
-				href="img/favicons/favicon.png"
-				type="image/x-icon">
-	<link rel="stylesheet"
-				href="css/libs.min.css">
-	<link rel="stylesheet"
-				href="css/style.min.css">
-	<title>Easy-webdev-startpack v3.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="some">
+	<meta name="keywords" content="">
+	<link rel="shortcut icon" href="img/favicons/favicon.svg" type="image/svg+xml">
+	<link rel="shortcut icon" href="img/favicons/favicon.webp" type="image/webp">
+	<link rel="shortcut icon" href="img/favicons/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>lvov-test</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
-
 
 <body>
 	<header class="header"></header>
 
-	<main class="main">123</main>
+	<main class="main">
+
+		<div class="container">
+			<section class="edit-profile">
+    <h1 class="edit-profile__title u-personal-area__title">Редактирование профиля</h1>
+    <div class="edit-profile__wrap">
+        <div class="edit-profile__avatar">
+            <div class="edit-profile__pic">
+                <img class="edit-profile__img" src="<?php echo get_template_directory_uri(); ?>/forum/img/no-foto.svg" alt="">
+            </div>
+            <button class="u-personal-area__btn u-personal-area__add-btn">Загрузить аватар</button>
+            <button class="u-personal-area__btn u-personal-area__delete-btn">Удалить аватар</button>
+        </div>
+        <div class="edit-profile__form-wrap">
+            <form class="edit-profile__form">
+                <div class="edit-profile__form-input-wrap">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <div class="edit-profile__input">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <div class="edit-profile__input">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <div class="edit-profile__input">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <div class="edit-profile__textarea">
+                    <textarea id="post" required="required" placeholder="123123"></textarea>
+                    <label for="post">Текст заметки</label>
+                </div>
+                <div class="edit-profile__input">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <div class="edit-profile__input">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <div class="edit-profile__input">
+                    <input type="text" id="theme" required="required">
+                    <label for="theme">Заголовок</label>
+                </div>
+                <input class="edit-profile__save" type="submit" value="Сохранить">
+            </form>
+        </div>
+    </div>
+</section>
+		</div>
+			
+		
+	</main>
 	<footer class="footer"></footer>
 
 	<script src="js/libs.min.js"></script>
